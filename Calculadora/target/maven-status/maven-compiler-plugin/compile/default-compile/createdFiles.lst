@@ -1,0 +1,4 @@
+br\com\minhaempresa\controller\CalculadoraController.class
+br\com\minhaempresa\domain\Operacao.class
+br\com\minhaempresa\service\CalculadoraService.class
+br\com\minhaempresa\service\CalculadoraService$1.class
