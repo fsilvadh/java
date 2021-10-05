@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [05/Oct/2021:10:51:31 -0300] "GET /sistema-financeiro-web/consultar-saldo HTTP/1.1" 200 21 http-bio-8080-exec-2 67
+0:0:0:0:0:0:0:1 - - [05/Oct/2021:10:51:31 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [05/Oct/2021:11:16:05 -0300] "GET /sistema-financeiro-web/consultar-saldo HTTP/1.1" 200 5 http-bio-8080-exec-2 83
+0:0:0:0:0:0:0:1 - - [05/Oct/2021:11:21:13 -0300] "GET /sistema-financeiro-web/consultar-saldo?nome=Fulano&sobrenome=de%Tal HTTP/1.1" 200 5 http-bio-8080-exec-2 85492
+0:0:0:0:0:0:0:1 - - [05/Oct/2021:11:22:08 -0300] "GET /sistema-financeiro-web/consultar-saldo?nome=Fulano&sobrenome=de%20Tal HTTP/1.1" 200 5 http-bio-8080-exec-3 49986
+0:0:0:0:0:0:0:1 - - [05/Oct/2021:11:22:40 -0300] "GET /sistema-financeiro-web/consultar-saldo?nome=Fulano&sobrenome=de%20Tal HTTP/1.1" 200 5 http-bio-8080-exec-5 9160
+0:0:0:0:0:0:0:1 - - [05/Oct/2021:12:07:21 -0300] "GET /sistema-financeiro-web/consultar-saldo?nome=Fulano HTTP/1.1" 200 5 http-bio-8080-exec-8 7166
+0:0:0:0:0:0:0:1 - - [05/Oct/2021:12:08:28 -0300] "GET /sistema-financeiro-web/consultar-saldo?nome=Fulano&sobrenome=de%20Tal HTTP/1.1" 200 5 http-bio-8080-exec-10 10519
