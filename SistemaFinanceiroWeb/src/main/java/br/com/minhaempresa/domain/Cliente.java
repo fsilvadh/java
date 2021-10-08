@@ -1,12 +1,10 @@
 package br.com.minhaempresa.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+@Table(name="tb_cliente")
 public class Cliente implements Serializable {
 
     private final static long serialVersionUID = 1L;
@@ -17,11 +15,13 @@ public class Cliente implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_cliente")
     private int id;
 
+    @Column(name = "nom_cliente", length = 150)
     private String nome;
+
     private String sobrenome;
-    private double altura;
 
     public Cliente(String nome, String sobrenome) {
         this.nome = nome;
@@ -50,15 +50,7 @@ public class Cliente implements Serializable {
 
     @Override
     public String toString() {
-        return this.nome + " " + this.sobrenome + " " + this.altura;
-    }
-
-    public double getAltura() {
-        return altura;
-    }
-
-    public void setAltura(double altura) {
-        this.altura = altura;
+        return this.nome + " " + this.sobrenome;
     }
 
     public int getId() {

@@ -1,2 +1,14 @@
-br\com\minhaempresa\service\ConsultarSaldoService.class
+br\com\minhaempresa\domain\ContaEspecial.class
+br\com\minhaempresa\domain\ContaCorrente.class
+br\com\minhaempresa\exception\SaldoInsuficienteException.class
+br\com\minhaempresa\service\DepositoService.class
+br\com\minhaempresa\domain\ContaConjunta.class
+br\com\minhaempresa\domain\ContaPoupanca.class
+br\com\minhaempresa\repository\ContaRepository.class
+br\com\minhaempresa\service\ConsultaSaldoService.class
+br\com\minhaempresa\repository\ClienteRepository.class
+br\com\minhaempresa\controller\DepositoController.class
+br\com\minhaempresa\domain\Cliente.class
+br\com\minhaempresa\domain\Conta.class
+br\com\minhaempresa\repository\Conexao.class
 br\com\minhaempresa\controller\ConsultaSaldoController.class
